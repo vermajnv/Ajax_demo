@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch Data</title>
+    <link rel="stylesheet" href="style/app.css">
+</head>
+
+<body>
+    <img class= "LoaderGif hidden" src="images/ajax-loader.gif" alt="">
+    <div class="d-f containerWraper">
+        <div class="container">
+            <ul>
+                <li class="home">
+                    <a href="./">Home</a>
+                </li>
+            </ul>
+            <h>When Perticular Button is clicked</h>
+            <p>Data is fetched(Asynchronously)</p>
+            <p>Part of Page updates</p>
+        </div>
+    </div>
+    <p class="Timing">Timing</p>
+    <div class="content">
+        <div class="fetchJson commonCard">
+            <button id="fetchJSON">Fetch JSON</button>
+            <div class="jsonContent d-f commonContent">
+                
+            </div>
+        </div>
+        <div class="fetchHtml commonCard">
+            <button id="fetchHtml">Fetch HTML</button>
+            <div class="htmlContent d-f commonContent">
+                
+            </div>
+        </div>
+        <div class="fetchImage commonCard">
+            <button id="fetchImage">Fetch Image</button>
+            <div class=" imageContainer commonContent">
+                <img id="imgPlaceholder"  src="http://via.placeholder.com/250x150" alt="">
+            </div>
+        </div>
+        <!-- drop-down -->
+
+    </div>
+    <div class="drop-down-wraper d-f">
+        <div class="drop-down d-f">
+            <label for="">Select Branch</label>
+            <select name="branch" id="branchDropdown" value="">
+                <option value="">Select Branch</option>
+                <option value="100">CS</option>
+                <option value="200">IT</option>
+                <option value="300">ME</option>
+            </select>
+            <label for="">Student Dropdown</label>
+            <select name="" id="studentDropdown">
+
+            </select>
+        </div>
+    </div>
+    <!-- <script src="./js/fetch_data.js"></script>
+    <script src="./js/timing.js"></script> -->
+    <script type="module" src="./js/fetch_data.js"></script>
+</body>
+
+</html>

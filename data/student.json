@@ -1,0 +1,21 @@
+{
+	"students" : [
+		{
+			"name" : "Rakesh",
+			"Branch" : "IT",
+			"DOB" : "20/12/2009"
+		},
+
+		{
+			"name" : "Nayan",
+			"Branch" : "CS",
+			"DOB" : "20/02/2009"
+		},
+
+		{
+			"name" : "Golu",
+			"Branch" : "EC",
+			"DOB" : "20/12/2007"
+		}
+]
+}

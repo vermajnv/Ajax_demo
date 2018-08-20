@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: #fff;*/
+    /*height: 100vh;*/
+	font-size: 1em;
+}
+
+.d-f {
+	display: flex;
+}
+.containerWraper {
+    width: 100%;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    /*border: 1px solid red;*/
+     /*box-shadow: 2px 2px 0 0 gray;*/
+
+}
+
+.container {
+    /*border: 1px solid pink;*/
+	margin-bottom: 3rem;
+    width: 50%;
+}
+
+h2,
+h3 {
+    /*width: 50%;*/
+    font-size: 2rem;
+    color : seagreen;
+}
+
+ul {
+    /* margin-top: 4rem; */
+}
+
+ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 1.5rem;
+	color: white;
+	padding: .5rem;
+}
+
+ul li:nth-of-type(odd) {
+	background-color: tomato;
+
+}
+
+ul li:nth-of-type(even) {
+	background-color: seagreen;
+
+}
+
+.home {
+	background-color: white;
+	text-align: center;
+}
+
+.container p:nth-of-type(odd) {
+	margin-top: 1rem;
+	background-color: seagreen;
+	color: white;
+	padding: .8rem;
+}
+
+.container p:nth-of-type(even) {
+	background-color: black;
+	color: white;
+	padding: .8rem;
+}
+
+.Timing {
+	text-align: center;
+}
+
+.content {
+	padding: .6rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.commonCard {
+	padding: 1rem;
+	border: 2px dotted red;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	align-items: center;
+	margin: 4px;
+	width: 300px;
+}
+
+.commonCard button {
+	border : 0;
+	background-color: seagreen;
+	color: white;
+	padding: 1rem;
+
+}
+
+.commonCard button:hover {
+	cursor: pointer;
+}
+
+.dynamicUl li{
+	padding: 1rem;
+
+}
+
+.commonContent {
+	padding-top: 1rem;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#imgPlaceholder {
+	height: 240px;
+	width: 100%;
+	border: 1px solid green;
+}
+
+.drop-down-wraper {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	/* border: 2px dotted red; */
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+
+.drop-down {
+	border: 2px dotted purple;
+	flex-direction: column;
+	width: 70%;
+	padding: 1rem;
+}
+
+.drop-down>label, .drop-down>select {
+	padding: .5rem;
+}
+
+.Home {
+	/* border : 1px solid red; */
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5rem;
+
+}
+
+.Form {
+	border: 1px solid pink;
+	flex-direction: column;
+	padding: 4rem;
+	border : 2px dotted red;
+	margin: 3rem;
+}
+
+.Form>input[type="text"], .Form>button {
+	padding: .5rem;
+	margin-top: .6rem;
+}
+
+.Form>button {
+	color: white;
+	background-color: blueviolet;
+	transition : all .2s ease-in;
+	border: 1px 1px 1px 0 solid blueviolet;
+	font-size: 1.4rem;
+	border-radius: .4rem;
+}
+
+.Form>button:hover {
+	color: blueviolet;
+	background-color: white;
+	cursor: pointer;
+}
+
+.imageUploadBox {
+	margin-top: 1rem;
+	border:  1px solid red;
+	width: 100%;
+	height: 240px;
+}
+
+.hide {
+	/* display: none; */
+	transform: translateX(-100%);
+}
+
+.hidden {
+	display: none;
+}
+.show {
+	/* visibility: visible; */
+	transform: translateX(calc(100%+45px));
+}
+
+.success {
+	background-color: green;
+	color: white;
+}
+
+.error {
+	background-color: red;
+	color: white;
+}
+
+p#messagePannel {
+	/* border : 1px solid red; */
+	/* text-align: center; */
+	position: fixed;
+	top: 40px;
+	transition: all .2s ease-in;
+	font-size: 1.4rem;
+	text-align: center;
+	width: 100%;
+}
+
+.LoaderGif {
+	position : fixed;
+	height: 140px;
+	width: 140px;
+}
